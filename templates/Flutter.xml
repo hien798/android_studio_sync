@@ -1,5 +1,5 @@
 <templateSet group="Flutter">
-  <template name="pr" value="print('hien ====&gt; ');" description="" toReformat="false" toShortenFQNames="true">
+  <template name="pr" value="print('HIEN ===&gt; ');" description="print" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="DART" value="true" />
     </context>
@@ -101,6 +101,19 @@
   <template name="bu" value="Widget _build$NAME$() {&#10;  return $WIDGET$;&#10;}" description="_buildWidget" toReformat="false" toShortenFQNames="true">
     <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="WIDGET" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="ex" value="Expanded(&#10;  child: $NAME$,&#10;)" description="Expanded" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="DART" value="true" />
+    </context>
+  </template>
+  <template name="crr" value="ClipRRect(&#10;  borderRadius: BorderRadius.cicular($VALUE$),&#10;  child: $NAME$,&#10;)" description="ClipRRect" toReformat="false" toShortenFQNames="true">
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="DART" value="true" />
     </context>
